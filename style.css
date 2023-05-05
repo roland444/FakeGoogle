@@ -43,9 +43,10 @@ input:hover {
 }
 
 nav ul {
+    width: 100vw;
     display: flex;
-    flex-direction: row;
-    justify-content: right;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
     
 }
 
@@ -54,12 +55,13 @@ main {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin-top: 200px;
 }
 
 footer {
     background-color: rgb(27, 27, 27);
-    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
     bottom: 0;
     width: 100vw;
     height: 15vh;
@@ -67,5 +69,13 @@ footer {
 
 }
 
+.footer-content {
+    display: flex;
+    
+}
+
+.main-content {
+    margin: 0 auto;
+}
 
 
