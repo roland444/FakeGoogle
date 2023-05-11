@@ -23,6 +23,7 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 5px;
+    border: none;
 }
 
 input {
@@ -40,6 +41,7 @@ input {
 
 input:hover {
     background: rgb(58, 58, 58);
+    box-shadow: ;
 }
 
 nav ul {
@@ -59,20 +61,46 @@ main {
 
 footer {
     background-color: rgb(27, 27, 27);
-    display: flex;
-    justify-content: start;
-    align-items: flex-end;
+    position: absolute;
     bottom: 0;
     width: 100vw;
-    height: 15vh;
+    height: 14vh;
     color: rgb(145, 145, 145);
 
 }
 
 .footer-content {
-    display: flex;
     
 }
+
+.top-row {
+    width: 100vw;
+    height: 7vh;
+}
+
+.localization {
+    text-align: center;
+    width: 75px;
+    height: 50px;
+    
+}
+
+.bottom-row {
+    width: 100vw;
+    height: 7vh;
+}
+
+.bottom-row ul {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nav {
+
+}
+
 
 .main-content {
     margin: 0 auto;
