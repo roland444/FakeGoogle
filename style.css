@@ -41,7 +41,7 @@ input {
 
 input:hover {
     background: rgb(58, 58, 58);
-    box-shadow: ;
+    box-shadow: 0 0 11px rgba(22, 22, 22, 0.5);
 }
 
 nav ul {
